@@ -1,6 +1,6 @@
 # Docker: Tor Proxy
 
-![Docker Tor Proxy](https://raw.githubusercontent.com/baklai/proxy/main/preview.png)
+![Docker Tor Proxy](https://raw.githubusercontent.com/baklai/docker-tor/main/preview.png)
 
 A fast, minimalist proxy system using [Tor](https://www.torproject.org) for unrestricted internet browsing.
 
