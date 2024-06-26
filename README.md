@@ -1,4 +1,4 @@
-# Docker Tor Proxy
+# Docker: Tor Proxy
 
 ![Docker Tor Proxy](https://raw.githubusercontent.com/baklai/proxy/main/preview.png)
 
@@ -14,7 +14,7 @@ The quickest way to get started is using bash script.
 
 ```bash
 # Linux
-wget -O proxy-init.sh https://raw.githubusercontent.com/baklai/docker-tor/main/tor-init.sh
+wget -O tor-init.sh https://raw.githubusercontent.com/baklai/docker-tor/main/tor-init.sh
 chmod +x tor-init.sh
 ./tor-init.sh
 
@@ -42,8 +42,8 @@ or create custom docker compose file `compose.yaml`
 # Create custom docker compose file
 
 services:
-  proxy:
-    image: baklai/proxy:latest
+  tor:
+    image: baklai/tor:latest
     ports:
       - '9050:9050'
     volumes:
